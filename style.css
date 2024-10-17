@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.sidebar-wrapper{
+    height: 100vh;
+    width: 13vw;
+    background-color: pink;
+}
+.sidebar-wrapper .sidebar {
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+.sidebar ul{
+    list-style: none;
+    font-family: sans-serif ;
+}
+.sidebar ul li{
+    margin-bottom: 60px;
+    margin-right: 20px;
+    padding: 20px;
+    
+}
+.sidebar-wrapper .sidebar .main-name{
+    font-weight: bold;
+    
+
+}
+.sidebar ul li:hover{
+    
+    background-color: white;
+    cursor: pointer;
+}
+.sidebar-wrapper .sidebar ul .main-name:hover{
+    background-color: pink;
+
+
+}
