@@ -31,6 +31,25 @@ body{
     
 
 }
+.main-name{
+    display: flex;
+    align-items: center;
+
+}
+.button-menu {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px ;
+    
+}
+.button-menu button img{
+    width: 2vw;
+    height: 4vh;
+    
+}
+    
 .sidebar ul li:hover{
     
     background-color: white;
@@ -39,5 +58,17 @@ body{
 .sidebar-wrapper .sidebar ul .main-name:hover{
     background-color: pink;
 
+}
+.sidebar{
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+
+.sbar-closer-wrapper{
+    transform: translateX(-60%); 
+}
+.sbar-closer-content{
+    visibility: hidden;
 
 }
+
