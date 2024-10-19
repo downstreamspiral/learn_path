@@ -9,19 +9,13 @@
 </head>
 <body>
 
-    <div class="sidebar-wrapper" id="sidebar-func">
+    <div class="sidebar-wrapper" id="sidebar-func">   <!-- This container contains all elements of sidebar and is a block element-->
 
         <div class="sidebar">
             <ul>
                 
                 <li class="main-name">
                     Dashboard
-
-                    <span class="button-menu">
-                        <button id="menu-open-close">
-                            <img src="/resources/menu-bar.png">
-                        </button>
-                    </span>
                 </li>
                 
                 <li>Courses</li>
@@ -40,10 +34,17 @@
             <div class="search-wrapper">
                 <div class="searchbar">
 
+                    <input type="text" placeholder="Search" id="search-bar-func"> 
+
+                </div>
+                <div class="icon-sbar">
+                    <a href="#"><img src="/resources/search.png" id="search-query"> </a>
                 </div>
             </div>
         </div>
     </div>
+
+    
 
   <script src="/index.js"></script>  
 </body>

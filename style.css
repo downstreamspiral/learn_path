@@ -5,6 +5,7 @@
 body{
     height: 100vh;
     width: 100vw;
+    display: flex;
 }
 .sidebar-wrapper{
     height: 100vh;
@@ -59,16 +60,21 @@ body{
     background-color: pink;
 
 }
-.sidebar{
-    transform: translateX(0);
-    transition: transform 0.3s ease;
-}
-
-.sbar-closer-wrapper{
-    transform: translateX(-60%); 
-}
-.sbar-closer-content{
-    visibility: hidden;
+.search-wrapper {
+    display:flex;
 
 }
+.nav-wrapper{
+   background-color: red;
+   padding-right: 100vw;
+   margin-bottom: 85vh;
 
+}
+.navbar{
+    margin-top: 45px;
+    margin-left: 40px;
+}
+.icon-sbar img{
+    width: 20px;
+    height: 20px;
+}
