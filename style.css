@@ -89,6 +89,14 @@ body{
     margin-left: 60vw;
     white-space: nowrap;
     cursor: pointer;
+    color:#66FCF1;
+    border: 3px solid black;
+    
 
 }
 
+.username-welcome:hover {
+    background-color: white;
+    color: black;
+
+}
