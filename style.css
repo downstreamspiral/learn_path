@@ -1,16 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
     height: 100vh;
-    width: 100vw;
+    width: 100px;
     display: flex;
+    font-family: 'Poppins' , sans-serif;
 }
 .sidebar-wrapper{
     height: 100vh;
     width: 13vw;
-    background-color: pink;
+    background-color: #0B0C10;
 }
 .sidebar-wrapper .sidebar {
     padding-left: 20px;
@@ -19,7 +23,8 @@ body{
 }
 .sidebar ul{
     list-style: none;
-    font-family: sans-serif ;
+    color: #66FCF1;
+    
 }
 .sidebar ul li{
     margin-bottom: 60px;
@@ -37,44 +42,53 @@ body{
     align-items: center;
 
 }
-.button-menu {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left:10px ;
-    
-}
-.button-menu button img{
-    width: 2vw;
-    height: 4vh;
-    
-}
     
 .sidebar ul li:hover{
     
-    background-color: white;
+    background-color: #1F2833;
     cursor: pointer;
 }
 .sidebar-wrapper .sidebar ul .main-name:hover{
-    background-color: pink;
+    background-color: #1F2833;
 
 }
 .search-wrapper {
     display:flex;
+    justify-content: center;
+    align-items:flex-end;
 
 }
 .nav-wrapper{
-   background-color: red;
-   padding-right: 100vw;
-   margin-bottom: 85vh;
+   background-color: #1F2833;
+   margin-right: -30px;
+   padding-right: 114px;
+   margin-bottom: 590px;
 
 }
 .navbar{
     margin-top: 45px;
     margin-left: 40px;
+    
+    
 }
 .icon-sbar img{
     width: 20px;
     height: 20px;
+    
 }
+.username-welcome #icon-svg-user {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+}
+
+.username-welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60vw;
+    white-space: nowrap;
+    cursor: pointer;
+
+}
+
