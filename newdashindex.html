@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/icon/favicon.png">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Skill Crafter</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="newdashstyle.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+
+<header id="header">
+    <nav>
+        <div class="logo"><img src="/resources/logon.png" alt="logo"></div>
+        <ul>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#services_section">Services</a></li>
+            <li><a href="#pathway_section">Pathway</a></li>
+            <li><a href="#team_section">Team</a></li>
+            <li><a href="#contactus_section">Contact</a></li>
+        </ul>
+        <div class="srch"><input type="text" class="search" placeholder="Search here..." style="color: rgb(0, 0, 0);"><img src="/resources/search.png" alt="search" onclick=slide()></div>
+
+        <a class="get-started" href="login.html">Get Started</a>
+        <img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+    </nav>
+    <div class="head-container">
+        <div class="quote">
+            <p>Unlock Skills by Learning Anytime, Anywhere for Free!</p>
+            <h5>Welcome to Skill Crafter, your gateway to limitless learning and professional growth! Here we provide a diverse range of courses tailored to meet your needs. Unlock your potential with the best online education experience available. Start exploring now and see how Skill Crafter can help you achieve your dreams!
+
+            </h5>
+            
+        </div>
+        <div class="svg-image">
+            <img src="/resources/homelaptop.jpg" alt="home picture">
+        </div>
+    </div>
+    <div class="side-menu" id="side-menu">
+        <div class="close" onclick="sideMenu(1)"><img src="images/icon/close.png" alt=""></div>
+        
+        <ul>
+            <li><a href="#about_section">About</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="/files/pathwaypage.html">Pathway</a></li>
+            <li><a href="#team_section">Team</a></li>
+            <li><a href="#services_section">Services</a></li>
+            <li><a href="#contactus_section">Contact</a></li>
+            <li><a href="#feedBACK">Feedback</a></li>
+        </ul>
+    </div>
+</header>
+
+<footer>
+    <div class="footer-wrapper">
+        <div class="footer-content">
+            <p>@All Rights Reserved to Hemendra and Team</p>
+        </div>
+    </div>
+</footer>
